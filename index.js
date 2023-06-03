@@ -47,8 +47,8 @@ app.post('/', async (req, res) => {
     }
 });
 
-const key = '78qvfqq2pafeuw';
-const secret = '7taQunRLaFO2O8vw';
+const key = 'xxxxxxxxxxxxxxxx';
+const secret = 'xxxxxxxxxxxxxxxx';
 
 // Call the API
 

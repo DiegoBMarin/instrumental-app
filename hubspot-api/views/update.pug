@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        title Update contact info
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        header
+            .container 
+                img(src='./uploads/instrumental-group_imagotype-blue.svg')    
+        .row
+            .container
+                .form-wrapper
+                    p User: #{userEmail}
+                    p Linkedind Data: #{linkedinSummary}
+                    form(method="POST")
+                        label(for="newVal") New linkedin data
+                        input(type="text" name="newVal" required)
+                        input(type="submit" value="Submit")
